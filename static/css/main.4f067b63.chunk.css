@@ -1,0 +1,2 @@
+*{font-family:"Roboto",sans-serif}#aboutSection,#commonSection,#homeSection,.serviceSection{height:100vh;padding:100px 0}strong{font-size:2.5rem}#homeSection .animated{animation:up-down 2s ease-in-out infinite alternate-reverse both}@keyframes up-down{0%{transform:translateY(10px)}to{transform:translateY(-10px)}}nav.navbar li a.active{border-bottom:1px solid #2e2e2e;font-weight:600}
+/*# sourceMappingURL=main.4f067b63.chunk.css.map */
