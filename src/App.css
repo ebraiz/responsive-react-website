@@ -2,8 +2,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
-#homeSection, #aboutSection, #commonSection, .serviceSection{
+#homeSection{
   height: 100vh;
+  padding: 100px 0;
+}
+
+#aboutSection, #commonSection, .serviceSection{
   padding: 100px 0;
 }
 

@@ -1,4 +1,6 @@
+import React from "react";
 import Card from './components/Card';
+import ServiceData from './ServiceData';
 
 const Services = () => {
   return (
@@ -11,11 +13,21 @@ const Services = () => {
             </div>  
           </div>
           <div className="row gy-4">
-            <Card />
+            {
+              ServiceData.map((val, ind) => {
+                return <Card
+                  key={ind}
+                  imgsrc={val.imgsrc}
+                  title={val.title}
+                  description={val.description}
+                  btnname={val.btnname}
+                  btnlink={val.btnlink}
+                />
+              })
+            }
           </div>
         </div>
       </section>
-      
     </>
   );
 }

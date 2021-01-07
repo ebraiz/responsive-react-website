@@ -1,10 +1,9 @@
-import { NavLink } from 'react-router-dom';
-import img1 from '../../src/images/serviceimg1.jpg';
-import img2 from '../../src/images/serviceimg2.jpg';
-import img3 from '../../src/images/serviceimg3.jpg';
-import img4 from '../../src/images/serviceimg4.jpg';
-import img5 from '../../src/images/serviceimg5.jpg';
-import img6 from '../../src/images/serviceimg6.jpg';
+import img1 from '../src/images/serviceimg.jpg';
+import img2 from '../src/images/serviceimg1.jpg';
+import img3 from '../src/images/serviceimg2.jpg';
+import img4 from '../src/images/serviceimg3.jpg';
+import img5 from '../src/images/serviceimg4.jpg';
+import img6 from '../src/images/serviceimg5.jpg';
 
 const ServiceData =  [
  {

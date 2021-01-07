@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import logo from './logo.svg';
 import { NavLink } from 'react-router-dom';
@@ -7,7 +8,7 @@ const Navbar = () => {
     <>
         <div className="container">
             <div className="row">
-                <div class="col">
+                <div className="col">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
                             <NavLink className="navbar-brand" to="/"><img src={logo} className="App-logo" alt="logo" />Ebraiz </NavLink>

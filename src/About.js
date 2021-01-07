@@ -1,3 +1,4 @@
+import React from "react";
 import web from '../src/images/homeimg.jpg';
 import Common from './components/Common';
 
