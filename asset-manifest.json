@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/responsive-react-website/static/css/main.9bb7a8b1.chunk.css",
-    "main.js": "/responsive-react-website/static/js/main.9e3f37e0.chunk.js",
-    "main.js.map": "/responsive-react-website/static/js/main.9e3f37e0.chunk.js.map",
+    "main.css": "/responsive-react-website/static/css/main.ef7e3cf1.chunk.css",
+    "main.js": "/responsive-react-website/static/js/main.68ce43f9.chunk.js",
+    "main.js.map": "/responsive-react-website/static/js/main.68ce43f9.chunk.js.map",
     "runtime-main.js": "/responsive-react-website/static/js/runtime-main.23dee7da.js",
     "runtime-main.js.map": "/responsive-react-website/static/js/runtime-main.23dee7da.js.map",
     "static/css/2.d65fdcc0.chunk.css": "/responsive-react-website/static/css/2.d65fdcc0.chunk.css",
@@ -12,10 +12,12 @@
     "static/js/3.1d71a281.chunk.js.map": "/responsive-react-website/static/js/3.1d71a281.chunk.js.map",
     "index.html": "/responsive-react-website/index.html",
     "static/css/2.d65fdcc0.chunk.css.map": "/responsive-react-website/static/css/2.d65fdcc0.chunk.css.map",
-    "static/css/main.9bb7a8b1.chunk.css.map": "/responsive-react-website/static/css/main.9bb7a8b1.chunk.css.map",
+    "static/css/main.ef7e3cf1.chunk.css.map": "/responsive-react-website/static/css/main.ef7e3cf1.chunk.css.map",
     "static/js/2.0e08b803.chunk.js.LICENSE.txt": "/responsive-react-website/static/js/2.0e08b803.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/responsive-react-website/static/media/banner.709fd581.jpg",
     "static/media/homeimg.654d1e3b.jpg": "/responsive-react-website/static/media/homeimg.654d1e3b.jpg",
     "static/media/logo.6ce24c58.svg": "/responsive-react-website/static/media/logo.6ce24c58.svg",
+    "static/media/rightimg.93568609.jpg": "/responsive-react-website/static/media/rightimg.93568609.jpg",
     "static/media/serviceimg.93568609.jpg": "/responsive-react-website/static/media/serviceimg.93568609.jpg",
     "static/media/serviceimg1.93568609.jpg": "/responsive-react-website/static/media/serviceimg1.93568609.jpg",
     "static/media/serviceimg2.93568609.jpg": "/responsive-react-website/static/media/serviceimg2.93568609.jpg",
@@ -27,7 +29,7 @@
     "static/js/runtime-main.23dee7da.js",
     "static/css/2.d65fdcc0.chunk.css",
     "static/js/2.0e08b803.chunk.js",
-    "static/css/main.9bb7a8b1.chunk.css",
-    "static/js/main.9e3f37e0.chunk.js"
+    "static/css/main.ef7e3cf1.chunk.css",
+    "static/js/main.68ce43f9.chunk.js"
   ]
 }
