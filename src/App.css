@@ -2,14 +2,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
-#homeSection{
+.homeSection{
   height: 100vh;
   padding: 100px 0;
 }
 
-#aboutSection, #commonSection, .serviceSection{
+/* #aboutSection, #commonSection, .serviceSection{
   padding: 100px 0;
-}
+} */
 
 strong{
   font-size: 2.5rem;
@@ -17,6 +17,38 @@ strong{
 
 #homeSection .animated{
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.headerSection{
+  background-image:url('images/banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.headerSection h1{
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  position: relative;
 }
 
 @-webkit-keyframes up-down { 

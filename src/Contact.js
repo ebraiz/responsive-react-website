@@ -1,4 +1,5 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
+import Common from './components/Common';
 
 const Contact = () => {
   const [data, setData ] = useState({
@@ -28,12 +29,10 @@ const Contact = () => {
   return (
     <>
       <section className="serviceSection">
-        <div className="container">
-          <div className="row">
-            <div className="col">
-              <h1 className="display-3 text-center mb-5">Contact Us</h1>
-            </div>  
-          </div>
+        <Common
+          heading="Contact Us"
+        />
+        <div className="container my-5">
           <div className="row">
             <div className="col">
             <form className="row g-3 needs-validation" noValidate onSubmit={formSubmit}>

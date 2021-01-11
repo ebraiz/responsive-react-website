@@ -1,17 +1,16 @@
 import React from "react";
 import Card from './components/Card';
 import ServiceData from './ServiceData';
+import Common from './components/Common';
 
 const Services = () => {
   return (
     <>
       <section className="serviceSection">
-        <div className="container">
-          <div className="row">
-            <div className="col">
-              <h1 className="display-3 text-center mb-5">Our Services</h1>
-            </div>  
-          </div>
+        <Common
+          heading="Our Services"
+        />
+        <div className="container my-5">
           <div className="row gy-4">
             {
               ServiceData.map((val, ind) => {
