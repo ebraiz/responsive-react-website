@@ -1,5 +1,4 @@
 import React from "react";
-import './App.css';
 import logo from './logo.svg';
 import { NavLink } from 'react-router-dom';
 
@@ -11,7 +10,9 @@ const Navbar = () => {
                 <div className="col">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
-                            <NavLink className="navbar-brand" to="/"><img src={logo} className="App-logo" alt="logo" />Ebraiz </NavLink>
+                            <NavLink className="navbar-brand" to="/">
+                                <img src={logo} className="App-logo" alt="logo" />Ebraiz
+                            </NavLink>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
@@ -28,6 +29,9 @@ const Navbar = () => {
                                     </li>
                                     <li className="nav-item">
                                         <NavLink activeClassName="active" className="nav-link" to="/contact">Contact</NavLink>
+                                    </li>
+                                    <li className="nav-item">
+                                        <NavLink to="/login" className="btn btn-outline-primary rounded-pill">Login</NavLink>
                                     </li>
                                 </ul>
                             </div>

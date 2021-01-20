@@ -1,23 +1,26 @@
+
+@import "../src/sass/variables.scss";
+
 *{
   font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: $white-color;
 }
 
 .homeSection{
   height: 100vh;
   padding: 100px 0;
-}
 
-/* #aboutSection, #commonSection, .serviceSection{
-  padding: 100px 0;
-} */
+  & .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+}
 
 strong{
   font-size: 2.5rem;
-}
-
-#homeSection .animated{
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
-}
+} 
 
 .headerSection{
   background-image:url('images/banner.jpg');
@@ -29,27 +32,29 @@ strong{
   display: flex;
   align-items: center;
   justify-content: center;
+
+  & h1{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
 }
 
-.headerSection::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  background: rgba(0, 0, 0, 0.8);
-}
-
-.headerSection h1{
-  margin: 0;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
 
 @-webkit-keyframes up-down { 
   0% { 
